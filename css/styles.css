@@ -132,8 +132,9 @@ color: var(--adress-color)
 /**______SOLUTION______**/
 .solution {
 background: var(--solution-color) ; 
+max-width: 1440px;
+margin: 0 auto;
    background-image:linear-gradient( rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/bg-img.jpg);
-   max-width: 1440px;
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -352,16 +353,14 @@ margin-bottom:72px;
     width: 168px;
     height: 88px;
     border: 1px  solid #8E8F99 ;
+    
 }
 .custumers-link-icon{
-    fill: #8e8f99;
+    fill: #8E8F99;
 }
-
-.custumers-link-icon:hover{
-fill:#404BBF; 
-}
-.custumers-link:hover {
+.custumers-link:hover{
     border-color: #404BBF;
+    fill:#404BBF; 
     
 }
 /**______footer______**/
