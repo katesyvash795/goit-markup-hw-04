@@ -263,7 +263,7 @@ text-transform: capitalize;
 color: var(--title-color);
 }
 .team-item-div{
- padding-top: 32px;
+padding-top: 32px;
 padding-bottom: 32px; 
 text-align: center;  
 }
@@ -286,12 +286,12 @@ font-weight: 500;
 letter-spacing: 0.02em ;
 color: var(--title-color);
 margin-bottom: 8px;
-
 }
 .team-item-text {
 font-size: 16px;
 line-height: 1.5;
 color: #434455;
+margin-bottom: 8px;
 }
 .container-team-list{
     display: flex;
@@ -300,7 +300,6 @@ color: #434455;
     display: flex;
     justify-content: center;
     gap:24px;
-    padding-bottom: 32px;
 }
 .team-soc-item {
     width: 40px;
@@ -328,7 +327,7 @@ height: 40px;
 .custumers-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -350,17 +349,16 @@ margin-bottom:72px;
     display: flex;  
     align-items: center;
     justify-content: center;
-    width: 168px;
-    height: 88px;
+    padding: 16px 32px ;
     border: 1px  solid #8E8F99 ;
-    
+    color: #8E8F99;
 }
 .custumers-link-icon{
-    fill: #8E8F99;
+    fill: currentColor;
 }
-.custumers-link:hover{
+.custumers-link:hover,.custumers-link:focus{
     border-color: #404BBF;
-    fill:#404BBF; 
+    color:#404BBF; 
     
 }
 /**______footer______**/
@@ -402,9 +400,9 @@ margin-top: 16px;
 .footer-soc-list {
     display: flex;
     justify-content: center;
-    gap:24px;
-    padding-bottom: 32px;
+    gap: 16px;
 }
+
 .footer-soc-item {
     width: 40px;
 height: 40px;
@@ -427,10 +425,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+margin-bottom: 16px;
 }
 .social-media{
     display: flex;
-    gap:16px;
     flex-direction: column;
 }
 .footer-link-icons{
